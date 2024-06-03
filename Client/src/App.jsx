@@ -1,6 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import { routes, adminRoutes, RoutesPartner } from './Routers/Routers.jsx';
+import { routes} from './Routers/Routers.jsx';
 import Default from './layout/Default/Default';
 
 function jwtDecode(token) {
